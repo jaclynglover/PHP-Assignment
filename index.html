@@ -56,5 +56,20 @@
         <img src="images/next.jpg" height="32"/>
       </button>
     </div>
+    <br>
+    <div class="commentQuestionSuggestion">
+      <p>Do you have a comment, question, or suggestion? Please fill out the form below to get in touch with me!</p>
+    </div>
+    <!--Code based on W3Schools PHP form https://www.w3schools.com/php/php_forms.asp and customized-->
+    <div class="contactForm">
+      <form action="contactform.php" method="post">
+      <label>Name:</label><input type="text" name="name"><br>
+      <label>E-mail:</label><input type="text" name="email"><br>
+      <label>Your website:</label><input type="text" name="personalWebsite"><br>
+      <br>
+      <label>Comment:</label><textarea name="comment"></textarea><br>
+      <input type="submit">
+      </form>
+    </div>
   </body>
 </html>
